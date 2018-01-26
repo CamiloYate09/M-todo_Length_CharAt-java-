@@ -30,10 +30,10 @@ public class Main {
             caracter = cadena.charAt(i);
             //System.out.println("El caracter de la posicion es " + i+ "es :"+ caracter);
   //JOptionPane.showMessageDialog(this, caracter,"Usted debe dar de cambio",1);
-             JOptionPane.showMessageDialog(null, "<html><h1 style='font-size:20px; color:red;'>"+"El caracter de la posicion  " + i + " es : "+ caracter +"</h1> </html>","Las posiciones de los caracteres",1);
+             JOptionPane.showMessageDialog(null, "<html><h1 style='font-size:20px; color:#73FF0D;'>"+"El caracter de la posicion  " + i + " es : "+ caracter +"</h1> </html>","Las posiciones de los caracteres",1);
           
         }
-        
+           JOptionPane.showMessageDialog(null, "<html><h1 style='font-size:20px; color:#73FF0D;'>"+ cadena+"</h1> </html>","Las posiciones de los caracteres",1);
     }
     
     
